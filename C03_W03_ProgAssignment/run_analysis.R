@@ -6,14 +6,14 @@
 
 #setwd("I:/MOOC/COURSERA/Johns Hopkins/The Data Science Specialization/03 - Getting and cleaning Data/Programming Assignments/DATA/train/")
 
-X_train <- read.table("./X_train.txt", quote="\"")
-features <- read.table("./features.txt", quote="\"")
-X_test <- read.table("./X_test.txt", quote="\"")
-activity_labels <- read.table("./activity_labels.txt", quote="\"")
-activities_train <- read.table("./y_train.txt", quote="\"")
-activities_test <- read.table("./y_test.txt", quote="\"")
-subject_train <- read.table("./subject_train.txt", quote="\"")
-subject_test <- read.table("./subject_test.txt", quote="\"")
+X_train <- read.table("./data/UCI HAR Dataset/train/X_train.txt", quote="\"")
+features <- read.table("./data/UCI HAR Dataset/features.txt", quote="\"")
+X_test <- read.table("./data/UCI HAR Dataset/test/X_test.txt", quote="\"")
+activity_labels <- read.table("./data/UCI HAR Dataset/activity_labels.txt", quote="\"")
+activities_train <- read.table("./data/UCI HAR Dataset/train/y_train.txt", quote="\"")
+activities_test <- read.table("./data/UCI HAR Dataset/test/y_test.txt", quote="\"")
+subject_train <- read.table("./data/UCI HAR Dataset/train/subject_train.txt", quote="\"")
+subject_test <- read.table("./data/UCI HAR Dataset/test/subject_test.txt", quote="\"")
 
 
 # [STEP1] Merge dat sets into single one
